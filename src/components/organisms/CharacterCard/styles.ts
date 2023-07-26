@@ -29,6 +29,12 @@ export const ButtonModal = styled.div`
     position: absolute;
     top: 168px;
     right: 65px;
+    @media (max-width: 768px) {
+        position:static;
+   
+    }
+
+    
 `
 
 export const Description = styled.div`

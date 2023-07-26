@@ -78,7 +78,7 @@ export default function FormEdit({
             <ButtonAction
               label="Editar"
               action={() => {
-                setIsEditing(true), handleDataChange();
+                setIsEditing(true), handleDataChange(), setOpen(false);
               }}
             />
           </div>
